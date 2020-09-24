@@ -694,7 +694,7 @@ nav {
 .isec10 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   margin-top: 70px;
@@ -704,21 +704,22 @@ nav {
   .isec10 .col1isec10-img {
     max-width: 50%; }
     .isec10 .col1isec10-img img {
-      margin-left: -120px;
       width: 100%;
       height: auto; }
-  .isec10 .col1isec10 p:last-of-type {
-    margin-top: 20px;
-    padding: 0 30px; }
-    .isec10 .col1isec10 p:last-of-type a {
-      color: #06c;
-      font-size: 21px;
-      line-height: 0.08349;
-      font-weight: 400;
-      letter-spacing: .011em;
-      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-      .isec10 .col1isec10 p:last-of-type a:hover {
-        text-decoration: underline; }
+  .isec10 .col1isec10 {
+    padding: 5rem; }
+    .isec10 .col1isec10 p:last-of-type {
+      margin-top: 20px;
+      padding: 0 30px; }
+      .isec10 .col1isec10 p:last-of-type a {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec10 .col1isec10 p:last-of-type a:hover {
+          text-decoration: underline; }
 
 .isec11 {
   display: flex;
@@ -734,7 +735,9 @@ nav {
     margin: auto; }
     .isec11 .colsec11-outer .col2sec11,
     .isec11 .colsec11-outer .col1sec11 {
-      min-width: 340px; }
+      min-width: 340px;
+      padding: 10px;
+      line-height: 0.3; }
       .isec11 .colsec11-outer .col2sec11 p:last-of-type,
       .isec11 .colsec11-outer .col1sec11 p:last-of-type {
         margin-top: 20px;
@@ -750,6 +753,199 @@ nav {
           .isec11 .colsec11-outer .col2sec11 p:last-of-type a:hover,
           .isec11 .colsec11-outer .col1sec11 p:last-of-type a:hover {
             text-decoration: underline; }
+  .isec11 .col3sec11 h1 {
+    margin-bottom: 70px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+.isec12 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  background: #fff;
+  margin: 2rem; }
+  .isec12 .pisec12-img {
+    max-width: 70%; }
+    .isec12 .pisec12-img img {
+      width: 100%;
+      height: auto; }
+  .isec12 .pisec12 {
+    padding: 5rem;
+    text-align: center;
+    margin: auto; }
+    .isec12 .pisec12 h1 {
+      font-size: 38px;
+      line-height: 0.38349;
+      font-weight: 600;
+      letter-spacing: -.003em;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+    .isec12 .pisec12 p:last-of-type {
+      margin-top: 20px;
+      padding: 0 30px; }
+      .isec12 .pisec12 p:last-of-type a {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec12 .pisec12 p:last-of-type a:hover {
+          text-decoration: underline; }
+
+.isec13 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin: 2rem; }
+  .isec13 .col1sec13,
+  .isec13 .col2sec13 {
+    min-width: 50%;
+    text-align: center;
+    margin: auto; }
+    .isec13 .col1sec13 h1,
+    .isec13 .col2sec13 h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      line-height: 0.3; }
+    .isec13 .col1sec13 p:last-of-type,
+    .isec13 .col2sec13 p:last-of-type {
+      margin: 3px 0;
+      padding: 0 30px; }
+      .isec13 .col1sec13 p:last-of-type a,
+      .isec13 .col2sec13 p:last-of-type a {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec13 .col1sec13 p:last-of-type a:hover,
+        .isec13 .col2sec13 p:last-of-type a:hover {
+          text-decoration: underline; }
+    .isec13 .col1sec13.col1sec13,
+    .isec13 .col2sec13.col1sec13 {
+      background: #000;
+      color: #fff;
+      overflow: hidden; }
+      .isec13 .col1sec13.col1sec13 img,
+      .isec13 .col2sec13.col1sec13 img {
+        margin-right: -200px; }
+    .isec13 .col1sec13.col2sec13,
+    .isec13 .col2sec13.col2sec13 {
+      background: #fbfbfd;
+      color: #000; }
+
+.isec14 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 2rem;
+  background: #000;
+  padding: 40px; }
+  .isec14 .psec14 {
+    min-width: 50%;
+    text-align: center; }
+    .isec14 .psec14 h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      line-height: 0.3;
+      color: #fff;
+      margin-top: 5rem; }
+    .isec14 .psec14 p:last-of-type {
+      margin: -10px 0;
+      padding: 0 30px; }
+      .isec14 .psec14 p:last-of-type a {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec14 .psec14 p:last-of-type a:hover {
+          text-decoration: underline; }
+
+.isec15 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 1rem; }
+  .isec15 .h1sec15 {
+    text-align: center;
+    margin: 79px; }
+  .isec15 .col1sec-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background: #000; }
+    .isec15 .col1sec-cover .col1sec15,
+    .isec15 .col1sec-cover .col2sec15 {
+      max-width: 40%;
+      min-width: 50%;
+      text-align: center; }
+      .isec15 .col1sec-cover .col1sec15 h1,
+      .isec15 .col1sec-cover .col2sec15 h1 {
+        padding-top: 10px;
+        font-size: 40px;
+        line-height: 0.3;
+        margin-top: 5rem; }
+      .isec15 .col1sec-cover .col1sec15.col1sec15,
+      .isec15 .col1sec-cover .col2sec15.col1sec15 {
+        background-image: url(../images/Iphone/section13img1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-size: 440px 374px;
+        background-repeat: no-repeat; }
+        .isec15 .col1sec-cover .col1sec15.col1sec15 h1,
+        .isec15 .col1sec-cover .col2sec15.col1sec15 h1 {
+          margin-top: 80%; }
+      .isec15 .col1sec-cover .col1sec15.col2sec15,
+      .isec15 .col1sec-cover .col2sec15.col2sec15 {
+        background-image: url(../images/Iphone/section13img2.jpg);
+        background-size: cover;
+        background-position-x: center;
+        min-height: 600px; }
+        .isec15 .col1sec-cover .col1sec15.col2sec15 h1,
+        .isec15 .col1sec-cover .col2sec15.col2sec15 h1 {
+          margin-top: 10%; }
+      .isec15 .col1sec-cover .col1sec15 p:last-of-type,
+      .isec15 .col1sec-cover .col2sec15 p:last-of-type {
+        margin: -10px 0;
+        padding: 0 30px; }
+        .isec15 .col1sec-cover .col1sec15 p:last-of-type a,
+        .isec15 .col1sec-cover .col2sec15 p:last-of-type a {
+          color: #06c;
+          font-size: 21px;
+          line-height: 0.08349;
+          font-weight: 400;
+          letter-spacing: .011em;
+          font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+          .isec15 .col1sec-cover .col1sec15 p:last-of-type a:hover,
+          .isec15 .col1sec-cover .col2sec15 p:last-of-type a:hover {
+            text-decoration: underline; }
+
+.isec16 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 1rem;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px; }
+  .isec16 .col1sec16 {
+    min-width: 50%; }
+  .isec16 .psec16 {
+    min-width: 50%; }
 
 .nesg-flex-rw,
 .nesg-flex-about-rw {
