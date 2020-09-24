@@ -1,0 +1,35 @@
+@import "config";
+@import "menu";
+@import "pages/home";
+@import "component/footer";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $primary_color;
+    color: set-text-color($primary-color);
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// Headings
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.green {
+    color: $secondary_color;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@import "mobile";

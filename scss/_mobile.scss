@@ -1,0 +1,650 @@
+// Widescreens
+@include mediaXl {}
+
+// Desktops & Laptops
+@include mediaLg {
+    .nesg-header-sm {
+        display: block;
+    }
+    .nesg-header-sm {
+        display: none;
+    }
+    #nesg-about-new {
+        .nesg-con {
+            width: 100%;
+            padding: 15px 30px !important;
+            .nesg-con-skill {
+                overflow: wrap;
+                h3 {
+                    text-transform: uppercase;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .nesg-what-we-offer {
+            width: 100%;
+            padding: 0px 20px 35px 0px;
+            .nesg-what-we-offer-box1 {
+                width: 20%;
+                margin: -40px 0 0 0px;
+                img {
+                    height: 25rem;
+                }
+            }
+        }
+        .nesg-at-glance-2 {
+            background: #f1f8ff;
+            color: black;
+            padding: 80px;
+            img {
+                margin-left: 8rem;
+            }
+            .nesg-at-glances-2 {
+                padding: 10px;
+                left: 3rem;
+                width: 41%;
+            }
+        }
+    }
+    #nesg-courses {
+        .nesg-con {
+            .nesg-right-box-top {
+                display: none;
+            }
+        }
+        .nesg-course-content {
+            .nesg-courses-list {
+                width: 100%;
+            }
+            .nesg-right-box-top-hidden {
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Tablets & Small Laptops
+@include mediaMd {
+    .nesg-header-sm {
+        display: block;
+    }
+    .nesg-header {
+        display: none;
+    }
+    .nesg-header-sm {
+        display: block;
+        height: 5rem;
+    }
+    #nesg-home {
+        .nesg-featured {
+            .nesg-featured-con {
+                .nesg-featured-item {
+                    min-width: 25%;
+                    margin: 50px;
+                }
+            }
+        }
+    }
+    #nesg-couter {
+        .nesg-con {
+            .nesg-con-header {
+                overflow: wrap;
+                h3 {
+                    font-size: 2.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .nesg-find-course {
+            overflow: hidden;
+            .nsg-find-course-search {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .form-control {
+                    margin-bottom: 2rem;
+                    margin-left: 0rem !important;
+                    width: 100%;
+                }
+                button {
+                    margin-left: 0rem !important;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .nesg-header-sm {
+        ul.menu-nav {
+            margin-left: -50px;
+            width: 100%;
+            float: none;
+            min-height: 0;
+            &.show {
+                transform: translate3d(0, 0, 0);
+            }
+        }
+    }
+    //About things
+    #nesg-about-new {
+        .nesg-con {
+            width: 100%;
+            padding: 100px 30px !important;
+            .nesg-con-skill {
+                overflow: wrap;
+                h3 {
+                    text-transform: uppercase;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .nesg-what-we-offer {
+            width: 100%;
+            padding: 0px 13px 35px 0px;
+            flex-direction: column;
+            .nesg-what-we-offer-box1 {
+                width: 100%;
+                img {
+                    margin-left: 25%;
+                    height: 25rem;
+                }
+            }
+        }
+        .nesg-at-a-glance {
+            padding: 10px 13px;
+            h3 {
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 2.5rem;
+                font-weight: bold;
+                line-height: 0.1rem;
+                .green {
+                    color: #46bc87;
+                }
+            }
+            .nesg-gla-box {
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                .nesg-glances {
+                    padding: 20px;
+                    width: 45%;
+                    margin: 5px;
+                    h4 {
+                        color: #46bc87;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .nesg-at-glance-2 {
+            background: #f1f8ff;
+            color: black;
+            padding: 80px;
+            img {
+                margin-left: 30px;
+                width: 30rem;
+                height: 100%;
+                object-fit: cover;
+            }
+            .nesg-at-glances-2 {
+                box-shadow: 0px 3px 17px #1c72b933;
+                border: 1px solid #1c72b933;
+                padding: 10px;
+                left: 5rem;
+                margin-top: 3rem;
+                width: 37%;
+                z-index: 1;
+                position: absolute;
+                background: white;
+                h4 {
+                    color: #46bc87;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    //About footer
+    .nesg-flex-about-rw {
+        padding: 15px 30px !important;
+        .footer-list-top {
+            width: 100%;
+            padding-left: 0px;
+        }
+        .footer-list-top:nth-child(1) {
+            width: 100%;
+            p {
+                font-size: 1rem;
+                line-height: 2;
+            }
+        }
+        .footer-list-header {
+            font-size: 1.5em;
+        }
+        .footer-list-anchor {
+            font-size: 1.2em;
+        }
+        .footer-bottom-section {
+            padding: 0 5px 10px 5px;
+        }
+        .footer-bottom-wrapper {
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    //Password reset
+    #nesg-reset {
+        background: #f8f8f8 0% 0% no-repeat padding-box;
+        padding: 25% 5% 8% 5%;
+        min-height: 95vh;
+    }
+    .nesg-flex-rw {
+        .footer-list-top {
+            width: 100%;
+            padding-left: 0px;
+        }
+        .footer-list-top:nth-child(1) {
+            width: 100%;
+            p {
+                font-size: 1rem;
+                line-height: 2;
+            }
+        }
+        .footer-list-header {
+            font-size: 3em;
+        }
+        .footer-list-anchor {
+            font-size: 1.5em;
+        }
+        .footer-bottom-section {
+            padding: 0 5px 0px 0px;
+        }
+        .footer-bottom-wrapper {
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    #nesg-courses {
+        --main-padding: 70px 30px;
+        .nesg-con {
+            .nesg-right-box-top {
+                display: none;
+            }
+        }
+        .nesg-course-content {
+            .nesg-courses-list {
+                width: 100%;
+                .nesg-courses-list-right {
+                    width: 100%;
+                    align-items: baseline;
+                    display: flex;
+                    .green {
+                        font-size: 0.9rem;
+                        margin: 0 0 0 10%;
+                        color: #34cda5;
+                    }
+                }
+            }
+            .nesg-right-box-top-hidden {
+                display: flex;
+                width: 100%;
+            }
+        }
+        .nesg-featured {
+            .nesg-featured-con {
+                .nesg-featured-item {
+                    min-width: 25%;
+                    margin: 50px;
+                }
+            }
+        }
+    }
+}
+
+// Large Smartphones
+@include mediaSm {
+    .nesg-header-sm {
+        display: block;
+        height: 18vh;
+    }
+    #nesg-couter {
+        .nesg-con {
+            .nesg-con-header {
+                overflow: wrap;
+                h3 {
+                    font-size: 2rem !important;
+                }
+                p {
+                    font-size: 1rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .nesg-find-course {
+            padding: 15px 30px;
+        }
+    }
+    #nesg-home {
+        .nesg-featured {
+            .nesg-featured-con {
+                .nesg-featured-item {
+                    min-width: 85%;
+                    margin: 5px;
+                }
+            }
+        }
+        .nesg-course1 {
+            .nesg-course1-image {
+                .nesg-course1-box1 {
+                    min-width: 100%;
+                    .boxes {
+                        min-width: 95%;
+                    }
+                }
+            }
+        }
+        .nesg-tailor {
+            width: 100%;
+            margin-top: 20px;
+            padding: 15px 100px;
+            overflow: hidden;
+            background: linear-gradient( 90deg, #000000 0%, #000000f7 57%, #00000085 100%) 0% 0% no-repeat padding-box, url(../img/tailor.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            h3 {
+                text-transform: uppercase;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    #nesg-about-new {
+        .nesg-what-we-offer {
+            width: 100%;
+            padding: 0 0 35px 0;
+            flex-direction: column;
+            align-items: center;
+            .nesg-what-we-offer-box1 {
+                width: 100%;
+                margin: 0px;
+                img {
+                    margin-left: 5%;
+                    height: 25rem;
+                }
+            }
+            .nesg-what-we-offer-box2 {
+                width: 90%;
+                overflow: wrap;
+                color: black;
+                margin-top: 100px;
+                h3 {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .nesg-at-a-glance {
+            padding: 10px 13px;
+            h3 {
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: bold;
+                line-height: 0.1rem;
+                .green {
+                    color: #46bc87;
+                }
+            }
+            .nesg-gla-box {
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                .nesg-glances {
+                    padding: 20px;
+                    width: 80%;
+                    margin: 5px;
+                    h4 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .nesg-at-glance-2 {
+            background: #f1f8ff;
+            color: black;
+            padding: 5px;
+            img {
+                margin-left: 10%;
+                width: 80%;
+                height: 100%;
+            }
+            .nesg-at-glances-2 {
+                padding: 20px;
+                margin: 1rem -50px;
+                width: 80%;
+                position: relative;
+                background: white;
+                h4 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    #nesg-courses {
+        --main-padding: 70px 30px;
+        .nesg-con {
+            .nesg-con-skill {
+                max-width: 600px;
+                overflow: hidden;
+                .author-details {
+                    max-width: 100%;
+                }
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .nesg-course-content {
+            .nesg-courses-list {
+                width: 100%;
+                .nesg-courses-list-box {
+                    flex-direction: column;
+                    .nesg-courses-list-box-cover {
+                        width: 100%;
+                    }
+                }
+                .nesg-courses-list-right {
+                    width: 100%;
+                    align-items: baseline;
+                    display: flex;
+                    .green {
+                        font-size: 0.9rem;
+                        margin: 0 0 0 10%;
+                        color: #34cda5;
+                    }
+                }
+                .nesg-right-box-top-hidden {
+                    display: flex;
+                    width: 100%;
+                }
+            }
+        }
+        .nesg-featured {
+            .nesg-featured-con {
+                .nesg-featured-item {
+                    min-width: 85%;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+// Smaller Smartphones
+@include mediaSm-1 {
+    .nesg-header-sm {
+        display: block;
+        height: 5rem;
+    }
+    #nesg-couter {
+        .nesg-con {
+            padding: 15px 30px;
+            .nesg-con-header {
+                overflow: wrap;
+                h3 {
+                    font-size: 2.5rem;
+                }
+                p {
+                    font-size: 1rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+    //Login Page
+    #nesg-login,
+    #nesg-about-new {
+        .nesg-con {
+            .nesg-con-skill {
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .nesg-login-form .form-actions {
+            flex-direction: column;
+            text-align: center;
+            padding: 5px 0px;
+            a {
+                color: #000;
+                font-size: 0.61rem;
+            }
+        }
+    }
+    #nesg-home,
+    #nesg-about-new {
+        #nesg-about-new {
+            .nesg-what-we-offer {
+                width: 100%;
+                padding: 0 0 35px 0;
+                flex-direction: column;
+                .nesg-what-we-offer-box1 {
+                    width: 100%;
+                    img {
+                        margin-left: 5%;
+                        height: 25rem;
+                    }
+                }
+            }
+        }
+        .nesg-con {
+            width: 100%;
+            padding: 15px 30px;
+            background: linear-gradient(to right, #243b55, #243b55db, #00000070), url(../img/banner.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            .nesg-con-skill {
+                max-width: 600px;
+                overflow: wrap;
+                h3 {
+                    font-size: 1.5rem;
+                    line-height: 2;
+                }
+            }
+        }
+        .nesg-featured {
+            .nesg-featured-image {
+                padding: 15px 30px;
+                .nesg-featured-con {
+                    .nesg-featured-item {
+                        img {
+                            height: 40%;
+                            object-fit: cover;
+                        }
+                        min-width: 95%;
+                        margin-bottom: 10px;
+                        span {
+                            padding: 8px;
+                            text-align: left;
+                            display: block;
+                            line-height: 0.2;
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nesg-course1 {
+            .nesg-course1-image {
+                padding: 15px 30px !important;
+                .nesg-course1-box1 {
+                    min-width: 100%;
+                    .boxes {
+                        min-width: 95%;
+                    }
+                }
+            }
+        }
+    }
+    .nesg-flex-rw,
+    .nesg-flex-about-rw {
+        padding: 15px 30px !important;
+        .footer-list-top {
+            width: 100%;
+            padding-left: 0px;
+        }
+        .footer-list-top:nth-child(1) {
+            width: 100%;
+            p {
+                font-size: 1rem;
+                line-height: 2;
+            }
+        }
+        .footer-list-header {
+            font-size: 1.5em;
+        }
+        .footer-list-anchor {
+            font-size: 1.2em;
+        }
+        .footer-bottom-section {
+            padding: 0 5px 10px 5px;
+        }
+        .footer-bottom-wrapper {
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    #nesg-courses {
+        .nesg-featured {
+            .nesg-featured-image {
+                padding: 15px 30px;
+                .nesg-featured-con {
+                    .nesg-featured-item {
+                        img {
+                            height: 40%;
+                            object-fit: cover;
+                        }
+                        min-width: 95%;
+                        margin-bottom: 10px;
+                        span {
+                            padding: 8px;
+                            text-align: left;
+                            display: block;
+                            line-height: 0.2;
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
