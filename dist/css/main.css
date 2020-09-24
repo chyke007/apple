@@ -581,6 +581,13 @@ nav {
           .isec8 .col2isec8 .pisec8col2 p:nth-child(7) a:hover {
             text-decoration: underline; }
 
+.isec9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto; }
+
 .nesg-flex-rw,
 .nesg-flex-about-rw {
   background-color: #060619;
