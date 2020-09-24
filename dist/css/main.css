@@ -941,11 +941,175 @@ nav {
   margin: 1rem;
   background: #fff;
   margin: 0 auto;
-  padding: 30px; }
+  padding: 50px 30px; }
   .isec16 .col1sec16 {
-    min-width: 50%; }
+    margin: 60px 0;
+    min-width: 30%; }
   .isec16 .psec16 {
-    min-width: 50%; }
+    margin: 60px 0;
+    min-width: 30%;
+    text-align: center; }
+    .isec16 .psec16 span {
+      font-size: 12px;
+      line-height: 1.33337;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      border-radius: 12px;
+      padding-left: 11px;
+      padding-right: 11px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border: 1px solid;
+      border-color: #6e6e73;
+      margin-bottom: 10px; }
+
+.isec17 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin: 2rem; }
+  .isec17 .col1sec17,
+  .isec17 .col2sec17 {
+    min-width: 50%;
+    text-align: center;
+    margin: 5px;
+    padding: 3rem 20px; }
+    .isec17 .col1sec17 h1,
+    .isec17 .col2sec17 h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      line-height: 0.3; }
+    .isec17 .col1sec17 a:last-of-type,
+    .isec17 .col2sec17 a:last-of-type {
+      margin: 3px 0;
+      padding: 0 30px; }
+      .isec17 .col1sec17 a:last-of-type p,
+      .isec17 .col2sec17 a:last-of-type p {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec17 .col1sec17 a:last-of-type p:hover,
+        .isec17 .col2sec17 a:last-of-type p:hover {
+          text-decoration: underline; }
+    .isec17 .col1sec17.col1sec17,
+    .isec17 .col2sec17.col1sec17 {
+      background: #000;
+      color: #fff;
+      overflow: hidden; }
+      .isec17 .col1sec17.col1sec17 img,
+      .isec17 .col2sec17.col1sec17 img {
+        margin-left: -30px; }
+    .isec17 .col1sec17.col2sec17,
+    .isec17 .col2sec17.col2sec17 {
+      background: #fff;
+      color: #000; }
+
+.isec18 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin: 2rem; }
+  .isec18 .col1sec18,
+  .isec18 .col2sec18 {
+    min-width: 50%;
+    text-align: center;
+    margin: 5px;
+    padding: 3rem 20px;
+    min-height: 40rem; }
+    .isec18 .col1sec18 h1,
+    .isec18 .col2sec18 h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      line-height: 0.3; }
+    .isec18 .col1sec18 a:last-of-type,
+    .isec18 .col2sec18 a:last-of-type {
+      margin: 3px 0;
+      padding: 0 30px; }
+      .isec18 .col1sec18 a:last-of-type p,
+      .isec18 .col2sec18 a:last-of-type p {
+        color: #fff;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec18 .col1sec18 a:last-of-type p:hover,
+        .isec18 .col2sec18 a:last-of-type p:hover {
+          text-decoration: underline; }
+    .isec18 .col1sec18.col1sec18,
+    .isec18 .col2sec18.col1sec18 {
+      background-image: url(../images/Iphone/section16img1.jpg);
+      background-size: cover;
+      background-position-x: center;
+      color: #fff;
+      overflow: hidden; }
+      .isec18 .col1sec18.col1sec18 img,
+      .isec18 .col2sec18.col1sec18 img {
+        margin-left: -30px; }
+    .isec18 .col1sec18.col2sec18,
+    .isec18 .col2sec18.col2sec18 {
+      background-image: url(../images/Iphone/section16img2.jpg);
+      background-size: cover;
+      background-position-x: center;
+      color: #fff; }
+
+.isec19 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin: 2rem; }
+  .isec19 .col1sec19,
+  .isec19 .col2sec19 {
+    min-width: 50%;
+    text-align: center;
+    margin: 5px;
+    padding: 3rem 20px;
+    overflow: hidden; }
+    .isec19 .col1sec19 h1,
+    .isec19 .col2sec19 h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      line-height: 0.3; }
+    .isec19 .col1sec19 a:last-of-type,
+    .isec19 .col2sec19 a:last-of-type {
+      margin: 3px 0;
+      padding: 0 30px; }
+      .isec19 .col1sec19 a:last-of-type p,
+      .isec19 .col2sec19 a:last-of-type p {
+        color: #06c;
+        font-size: 21px;
+        line-height: 0.08349;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+        .isec19 .col1sec19 a:last-of-type p:hover,
+        .isec19 .col2sec19 a:last-of-type p:hover {
+          text-decoration: underline; }
+    .isec19 .col1sec19.col1sec19,
+    .isec19 .col2sec19.col1sec19 {
+      background: #f9f9f9;
+      color: #000;
+      overflow: hidden; }
+      .isec19 .col1sec19.col1sec19 img,
+      .isec19 .col2sec19.col1sec19 img {
+        margin-left: -30px; }
+      .isec19 .col1sec19.col1sec19 .imgcol1sec19 img,
+      .isec19 .col2sec19.col1sec19 .imgcol1sec19 img {
+        background: transparent; }
+    .isec19 .col1sec19.col2sec19,
+    .isec19 .col2sec19.col2sec19 {
+      background: #f9f9f9;
+      color: #000; }
+      .isec19 .col1sec19.col2sec19 .imgcol2sec19 img,
+      .isec19 .col2sec19.col2sec19 .imgcol2sec19 img {
+        width: 99%; }
 
 .nesg-flex-rw,
 .nesg-flex-about-rw {

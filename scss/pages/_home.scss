@@ -701,12 +701,180 @@
                         margin: 1rem;
                         background: #fff;
                         margin: 0 auto;
-                        padding: 30px;
+                        padding: 50px 30px;
                         .col1sec16 {
-                            min-width: 50%;
+                            margin: 60px 0;
+                            min-width: 30%;
                         }
                         .psec16 {
+                            margin: 60px 0;
+                            min-width: 30%;
+                            text-align: center;
+                            span {
+                                font-size: 12px;
+                                line-height: 1.33337;
+                                font-weight: 400;
+                                letter-spacing: -.01em;
+                                font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                border-radius: 12px;
+                                padding-left: 11px;
+                                padding-right: 11px;
+                                padding-top: 3px;
+                                padding-bottom: 3px;
+                                border: 1px solid;
+                                border-color: #6e6e73;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    .isec17 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+                        flex-direction: row;
+                        margin: 2rem;
+                        .col1sec17,
+                        .col2sec17 {
                             min-width: 50%;
+                            text-align: center;
+                            margin: 5px;
+                            padding: 3rem 20px;
+                            h1 {
+                                padding-top: 20px;
+                                font-size: 40px;
+                                line-height: 0.3;
+                            }
+                            a:last-of-type {
+                                margin: 3px 0;
+                                padding: 0 30px;
+                                p {
+                                    color: #06c;
+                                    font-size: 21px;
+                                    line-height: 0.08349;
+                                    font-weight: 400;
+                                    letter-spacing: .011em;
+                                    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            &.col1sec17 {
+                                background: #000;
+                                color: #fff;
+                                overflow: hidden;
+                                img {
+                                    margin-left: -30px;
+                                }
+                            }
+                            &.col2sec17 {
+                                background: #fff;
+                                color: #000;
+                            }
+                        }
+                    }
+                    .isec18 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+                        flex-direction: row;
+                        margin: 2rem;
+                        .col1sec18,
+                        .col2sec18 {
+                            min-width: 50%;
+                            text-align: center;
+                            margin: 5px;
+                            padding: 3rem 20px;
+                            min-height: 40rem;
+                            h1 {
+                                padding-top: 20px;
+                                font-size: 40px;
+                                line-height: 0.3;
+                            }
+                            a:last-of-type {
+                                margin: 3px 0;
+                                padding: 0 30px;
+                                p {
+                                    color: #fff;
+                                    font-size: 21px;
+                                    line-height: 0.08349;
+                                    font-weight: 400;
+                                    letter-spacing: .011em;
+                                    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            &.col1sec18 {
+                                background-image: url(../images/Iphone/section16img1.jpg);
+                                background-size: cover;
+                                background-position-x: center;
+                                color: #fff;
+                                overflow: hidden;
+                                img {
+                                    margin-left: -30px;
+                                }
+                            }
+                            &.col2sec18 {
+                                background-image: url(../images/Iphone/section16img2.jpg);
+                                background-size: cover;
+                                background-position-x: center;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .isec19 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+                        flex-direction: row;
+                        margin: 2rem;
+                        .col1sec19,
+                        .col2sec19 {
+                            min-width: 50%;
+                            text-align: center;
+                            margin: 5px;
+                            padding: 3rem 20px;
+                            overflow: hidden;
+                            h1 {
+                                padding-top: 20px;
+                                font-size: 40px;
+                                line-height: 0.3;
+                            }
+                            a:last-of-type {
+                                margin: 3px 0;
+                                padding: 0 30px;
+                                p {
+                                    color: #06c;
+                                    font-size: 21px;
+                                    line-height: 0.08349;
+                                    font-weight: 400;
+                                    letter-spacing: .011em;
+                                    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            &.col1sec19 {
+                                background: #f9f9f9;
+                                color: #000;
+                                overflow: hidden;
+                                img {
+                                    margin-left: -30px;
+                                }
+                                .imgcol1sec19 img {
+                                    background: transparent;
+                                }
+                            }
+                            &.col2sec19 {
+                                background: #f9f9f9;
+                                color: #000;
+                                .imgcol2sec19 img {
+                                    width: 99%;
+                                }
+                            }
                         }
                     }
                 }
